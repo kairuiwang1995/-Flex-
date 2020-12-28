@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        .main{display: grid; grid-template-columns: 1fr 1200px 1fr; height: 400px;}
+        .main div:nth-child(2n+1){background-color: aqua;}
+        .main div:nth-child(2n){background-color: red;}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>
